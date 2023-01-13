@@ -1,0 +1,106 @@
+.header{
+    background: green;
+    height: 8rem;
+}
+.background{
+    width: 100%;
+}
+.contact{
+    font-size: 4rem;
+    color:white;
+    text-align: center;
+    background: url('contact2.jpg') no-repeat;
+    background-size: cover;    
+    height:70rem ;
+    margin: auto;
+}
+
+.form{
+    display: flex;
+    height:40rem;
+    width: 100rem;
+    margin: auto;
+    padding-top: 14rem ;
+}
+.feel-free{
+    font-size: 6rem;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+.right{
+    display: flex;
+    background-image: url(bubble.jpg);
+    width: 50%;
+}
+.left{
+    padding-top: 8rem;
+    background-image:url('bubbles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+.input{
+    height: 4rem;
+    width: 90%;
+    margin-bottom: 2rem;
+    
+}
+
+#message{
+    height: 8rem;
+    margin: auto; 
+    
+}
+.input4{
+    width: 9rem;
+    color: black;
+    background-color: aqua;
+    margin-top: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+
+@media (max-width:767px)
+{
+    html{
+        font-size: 47%;
+    }
+    .contact{
+        width: 100%;
+
+    }
+    .form{
+        flex-direction: column;
+        width: 150%; 
+        padding-top: 4rem;
+        margin-left: 12%;
+    }
+    .left{
+        padding: 3rem 0;
+    }
+    #firstinput{
+        margin-top: 4rem;
+    }
+    .right{
+        padding: 3rem 0;
+    }
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    html{
+        font-size: 53%;
+    }
+    .form{
+        width: 90%;
+    }
+
+
+
+}

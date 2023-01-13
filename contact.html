@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------------------------------------Linking with CSS file---------------------------------->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+    <!-- ------------------------------------Google fonts---------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/86ff7957c3.js" crossorigin="anonymous"></script>
+    <title>IMPNOTES.ML</title>
+
+<body>
+
+    <!-----------------------------------------Header Section--------------------------------------------->
+
+
+    <header class="header">
+        <!-------------------------------------Navigation bar -------------------------------------------->
+
+
+        <nav class="navigation">
+            <!-- -------------------------------logo ----------------------------------------------------->
+
+
+            <div>
+                <a href="index.html"><img src="logo.jpg" class="logo"></a>
+            </div>
+            <!-----------------------------------logo-side------------------------------------------------>
+
+
+            <div class="logo-side">
+                KEEP LEARNING
+            </div>
+            <!------------------------------------ Menus-------------------------------------------------->
+
+
+            <div class="menu" id="menu">
+                <!-- ---------Hidemenu button brought from foneawesome icons------------------------------>
+                <i class="fa-solid fa-rectangle-xmark" onclick="hidemenu()" id="close-button"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                </ul>
+            </div>
+            <!-- --------------fontawesome icon for showmenu------------------------------->
+            <i class="fa-solid fa-house" onclick="showmenu()"></i>
+        </nav>
+    </header>
+    
+    
+    <img class="background" src="contact1.jpg" alt="image">
+
+
+    
+    <main class="contact">
+        <div class="form">
+            <div class="right"> <h1 class="feel-free">FEEL FREE <BR>TO<BR> CONTACT US</h1></div>
+            <div class="left">
+                <input class="input" type="text" placeholder="Name" id="firstinput" >
+               
+                <input class="input" type="email" placeholder="Email">
+                
+                <input class="input" id="message" type="text" placeholder="Message">
+                <input class="input4" type="button" value="SEND">
+            </div>
+        </div>        
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="menus">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <a href="https://facebook.com"><abbr title="Facebook"><i
+                        class="fa-brands fa-square-facebook"></i></abbr></a>
+            <a href="https://whatsapp.com"><abbr title="Whatsapp"><i
+                        class="fa-brands fa-square-whatsapp"></i></abbr></a>
+            <a href="https://gmail.com"><abbr title="Gmail"><i class="fa-solid fa-square-envelope"
+                        id="gmail"></i></abbr></a>
+            <a href="https://youtube.com"><abbr title="You tube"><i class="fa-brands fa-square-youtube"></i></abbr></a>
+        </div>
+    </footer>
+    <div class="foot">
+        <p>All rights reserved. Copyright @2022</p>
+    </div>
+
+
+
+
+
+     <!-- -----------------------------Javascript for toggle menu------------------------------------->
+     <script>
+        var menu = document.getElementById("menu");
+        function showmenu() {
+            menu.style.right = "0";
+        }
+        function hidemenu() {
+            menu.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

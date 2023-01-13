@@ -1,0 +1,33 @@
+
+/* -----------------------header---------------------- */
+
+.header{
+    background: green;
+    height: 8rem;
+}
+
+/* ---------------------image and service text------------------ */
+.service-text{
+    color: white;
+    font-size: 2.5rem;
+    background: url(services1.jpg);
+    height: 90rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+
+/* ----------------------media query for small screen--------------------- */
+
+
+@media screen and (max-width:767px) {
+
+    /* ---------------------image and service text----------------------------- */
+    .service-text{
+        height: 80vh;
+        background: url(services2.JPG);
+    }
+}

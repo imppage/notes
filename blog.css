@@ -1,0 +1,20 @@
+.girl{
+    width: 100%;
+}
+.main-inside{
+    width: 95%;
+}
+.subject{
+    width: 30%;
+}
+@media (max-width:767px) {
+    .subject{
+        margin: 3rem auto;
+        width: 60%;
+    }
+}
+@media (max-width:472px) {
+    .subject{
+        width: 70%;
+    }
+}
