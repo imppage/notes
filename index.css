@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/*---------------------------------------- Maintaining font size of the website  */
+html {
+    font-size: 62.5%;
+
+}
+/* ---separate header for the index page so use of id--------------------- */
+#header {
+    background: url(background.avif) no-repeat;
+    background-size: cover;
+    height: 70rem;
+}
+
+/* -------------------------------------------Main nav bar  */
+.navigation {
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    height: 8rem;
+    /* position: sticky; */
+    z-index: 1; 
+}
+
+/* ---------------------------------------------------------logo */
+.logo {
+    height: 5rem;
+    padding-left: 1rem;
+
+}
+
+.logo-side {
+    font-size: 2.5rem;
+    padding: 1.9rem;
+    color: white;
+}
+
+/* ----------------------------------------------------------------Menu */
+.menu {
+    flex: 1;
+    text-align: right;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 0rem 2rem;
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------------------------------------------------------------Transition effect */
+.menu ul li::after {
+    content: '';
+    display: block;
+    height: .2rem;
+    width: 0%;
+    /* font-size: 8rem; */
+    background: red;
+    transition: 0.25s;
+}
+
+.menu ul li:hover::after {
+    width: 100%;
+    font-size: 8rem;
+}
+
+/* ---------------------Welcome to ------------------------------------------*/
+.welcome {
+    border-radius: 1rem;
+    margin: 5rem auto;
+    padding: .4rem;
+    font-size: 1.5rem;
+    background: rgb(163, 151, 249);
+    width: fit-content;
+}
+
+/* --------------------------------welcome-text------------------------------------ */
+.welcome-inner {
+    color: green;
+}
+
+/* ----------------------hiding menu button for big screens--------------------------------- */
+nav .fa-solid {
+    display: none;
+}
+
+/* -------------------------------------visit button--------------------------------------- */
+.visit {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 8rem auto;
+    background-color: green;
+    border: .2rem solid black;
+    border-radius: 2rem;
+    width: fit-content;
+    padding: .5rem;
+}
+
+/* -----------------------hover effect on visit button----------------- */
+
+.visit:hover {
+    box-shadow: 0 0 4rem 0 rgba(168, 0, 0, 0.884);
+    transition: .1s;
+}
+
+/* -----------------------------------visit-text--------------------------------- */
+.visit a {
+    text-decoration: none;
+    color: rgb(251, 178, 7);
+}
+
+/* ------------------------four icons of social media main div----------------------------- */
+.icons {
+    margin: .5rem auto;
+    width: fit-content;
+}
+
+/* -----------------------------------Actual icons------------------------------------------ */
+.fa-brands {
+    font-size: 4rem;
+    color: rgb(123, 2, 2);
+    padding: 2rem 2rem;
+    border-radius: 40%;
+    margin: 0 1rem;
+    border: .1rem solid black;
+}
+
+/* ----------------------------------------separate id for gmail icon------------------------------- */
+#gmail {
+    font-size: 4rem;
+    color: rgb(123, 2, 2);
+    padding: 2rem 2rem;
+    /* transition: 1s; */
+    border-radius: 40%;
+    border: .1rem solid black;
+    margin: 0 1rem;
+}
+
+/* ----------------------------------------hover effect for icons-------------------------------------- */
+.fa-brands:hover {
+    box-shadow: 0 0 2rem 0 rgba(168, 0, 0, 0.884);
+}
+
+#gmail:hover {
+    box-shadow: 0 0 2rem 0 rgba(168, 0, 0, 0.884);
+}
+
+/* ---------------------------------------subject section----------------------------------------------- */
+/* --------------------------------------Main div------------------------------------------------ */
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 5rem solid burlywood;
+}
+
+
+/* ------------------------------------------Heading---------------------------------------------------- */
+.subject-available {
+    font-size: 3rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/* ----------------------------------One line text------------------------------------------------- */
+.subject-text {
+
+    font-size: 2rem;
+}
+
+/* ------------------------------------------------------div that contains all subjects----------- */
+.subjects {
+    display: flex;
+    font-size: 1.5rem;
+    margin: 3rem;
+    justify-content: space-evenly;
+}
+.subject-linking{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+}
+.subject-div{
+    width: 100%;
+}
+
+/* ----------------------------div that contains subject name and topics----------------------------- */
+.subject {
+    margin: 2rem;
+    width: 30%;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem 0 rgb(199, 164, 170);
+}
+
+.subject-heading {
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
+    border-bottom: .2rem solid black;
+    padding: 1rem;
+    height: 4rem;
+    /* width: fit-content; */
+}
+
+li {
+    list-style: none;
+    padding-bottom: 1.6rem;
+}
+
+.section2{
+    border: 1rem dashed black;
+}
+
+#viewer {
+    border-right: 5rem solid green;
+    border-left: 5rem solid red;
+    border-top: 3rem solid purple;
+    border-bottom: 3rem solid purple;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 6rem;
+
+}
+
+.review {
+    display: flex;
+    margin: 10rem auto;
+    width: 90%;
+}
+
+.review1 {
+    display: flex;
+    margin: 0 3rem;
+    background: rgb(255, 212, 236);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.photo {
+    height: 6rem;
+    border-radius: 90%;
+    margin: 1.5rem;
+}
+
+.paragraph {
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+.reviewers-name {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.fa-solid {
+    color: rgb(133, 16, 16);
+    font-size: 2rem;
+}
+
+.fa-regular {
+    color: rgb(133, 16, 16);
+    font-size: 2rem;
+}
+
+.footer {
+    background-image: url("footer-background5.jpg");
+    /* height: 80%; */
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+.icon .fa-brands {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    color: white;
+    padding: 1rem;
+}
+
+.icon #gmail {
+    border: 0px solid black;
+    color: white;
+    padding: 1rem;
+
+}
+
+.icon .fa-brands:hover {
+    box-shadow: 0 0 0 0 rgba(168, 0, 0, 0.884);
+}
+
+.icon #gmail:hover {
+    box-shadow: 0 0 0 0 rgba(168, 0, 0, 0.884);
+}
+
+.menus ul li a {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.foot p{
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* You have to keep the menu buttons properties upto 810px and rest everything for mobile size different and ipad size different */
+
+
+
+/* -----------------------This is for mobile sized device-------------------------------------------- */
+@media screen and (max-width:767px) {
+    html {
+        font-size: 43%;
+    }
+
+    /* -------------------------------css for menu------------------------ */
+    .menu {
+        background-color: rgb(132, 56, 87);
+        font-size: 5rem;
+        position: absolute;
+        height: 100%;
+        width: 20rem;
+        text-align: center;
+        top: 0;
+        transition: 1s;
+        right: -20rem;
+        z-index: 2;
+    }
+
+    /*-------------------------- css for menu button and close button----------------------- */
+    nav .fa-solid {
+        display: block;
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: white;
+        margin-right: 1.5rem;
+        flex: 1;
+        text-align: right;
+    }
+
+    #close-button {
+        margin-top: 2rem;
+    }
+
+    #menu ul li a {
+        padding: 1rem;
+    }
+    .fa-brands {
+        color: aqua;
+    }
+
+    #gmail {
+        color: aqua;
+    }
+
+    .subjects{
+        flex-direction: column;
+        font-size: 1.9rem;
+    }
+    
+    .subject-linking{
+        flex-direction: column;
+    }
+
+    .subject{
+        margin: 4rem auto;
+        width:60%;
+    }
+
+    .review {
+        flex-direction: column;
+    }
+
+    .review1 {
+        margin-top: 4rem;
+        margin-bottom: 8rem;
+    }
+
+    .paragraph {
+        font-size: 2.3rem;
+    }
+
+    .footer {
+        /* height: 70%; */
+        padding-top: 18%;
+    }
+
+    .icon .fa-brands {
+        font-size: 3rem;
+    }
+
+    .icon #gmail {
+        font-size: 3rem;
+
+    }
+}
+
+
+/* ------------------------media query for tablets--------------------------- */
+@media screen and (min-width:767px) and (max-width:1023px) {
+    html {
+        font-size: 53%;
+    }
+
+    .subjects {
+        flex-wrap: wrap;
+    }
+
+    .subject-linking{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        height: 70%;
+    }
+}
+
+
+@media screen and (max-width:472px){
+    .subject{
+        width: 70%;
+    }
+}

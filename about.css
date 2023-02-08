@@ -1,0 +1,60 @@
+.header{
+    background: green;
+    /* height: 8rem; */
+}
+.sec1{
+    background-image: url(backkk.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* height: 70rem; */
+    align-items: center;
+    padding-bottom: 2rem ;
+}
+section{
+    border: none;
+}
+.welcome{
+    text-align: center;
+    background-color: rgb(224, 160, 182);
+    padding: 1rem;
+    border-radius: 1rem;
+}  
+.second-div{
+    display: flex;
+    margin-top: 7rem;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+.image{
+    width: 15rem;
+    margin:2rem;
+    /* rotate:unset; */
+    border-radius: 1.5rem;
+
+}
+.about{
+    font-size: 2.2rem;
+    background-color: #529862;
+    padding: 2rem;
+    margin: 0rem 2rem;
+    border-radius: 1.5rem;
+    text-align: justify;
+    width: 65%;
+    font-weight: bold;
+}
+@media (max-width:767px)
+{
+    html{
+        font-size: 47%;
+    }
+}
+
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    html{
+        font-size: 53%;
+    }
+}
