@@ -23,7 +23,8 @@ html {
     /* align-content: center; */
     height: 8rem;
     /* position: sticky; */
-    z-index: 1; 
+    z-index: 2;
+    /* top: 0;  */
 }
 
 /* ---------------------------------------------------------logo */
@@ -86,6 +87,7 @@ html {
 /* --------------------------------welcome-text------------------------------------ */
 .welcome-inner {
     color: green;
+    padding: 0 1.5rem;
 }
 
 /* ----------------------hiding menu button for big screens--------------------------------- */
