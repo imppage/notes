@@ -17,8 +17,34 @@
     text-align: center;
     padding-top: 2rem;
     font-family: 'Kanit', sans-serif;
-/* font-family: 'Rubik Dirt', cursive; */
-    /* font-weight: 100; */
+
+}
+.ask_for_notes{
+    display: flex;
+    margin: 2rem;
+}
+.picture{
+    /* text-align: right; */
+    width: 50rem;
+    border-radius: 1rem;
+}
+.link{
+    margin: 3rem;
+    font-size: 2.4rem;
+    text-decoration: bold;
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+}
+.button{
+    background: green;
+    color: blue;
+    font-size: 3rem;
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 0 2rem;
+    margin: 3rem auto;
+    /* text-align: center; */
+    /* align-self: center; */
 }
 
 
