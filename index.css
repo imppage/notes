@@ -3,6 +3,9 @@
     padding: 0;
     color: black;
 }
+a{
+    text-decoration: none;
+}
 
 /*---------------------------------------- Maintaining font size of the website  */
 html {

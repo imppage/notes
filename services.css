@@ -22,6 +22,11 @@
 .ask_for_notes{
     display: flex;
     margin: 2rem;
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* width: 100%; */
+    height: 50rem;
+    
 }
 .picture{
     /* text-align: right; */
@@ -29,20 +34,21 @@
     border-radius: 1rem;
 }
 .link{
-    margin: 3rem;
+    margin: 2rem;
     font-size: 2.4rem;
-    text-decoration: bold;
+    /* text-decoration: bold; */
     font-family: 'Kanit', sans-serif;
     text-align: justify;
+    align-self: center;
 }
 .button{
-    background: green;
+    background: rgb(63, 168, 63);
     color: blue;
     font-size: 3rem;
     width: fit-content;
     border-radius: 1rem;
     padding: 0 2rem;
-    margin: 3rem auto;
+    margin: 4rem auto;
     /* text-align: center; */
     /* align-self: center; */
 }
