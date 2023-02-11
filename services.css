@@ -17,7 +17,6 @@
     text-align: center;
     padding-top: 2rem;
     font-family: 'Kanit', sans-serif;
-
 }
 .ask_for_notes{
     display: flex;
@@ -26,6 +25,7 @@
     /* align-content: center; */
     /* width: 100%; */
     height: 50rem;
+    font-family: 'Kanit', sans-serif;
     
 }
 .picture{
