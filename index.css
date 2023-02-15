@@ -286,7 +286,6 @@ li {
 
 .footer {
     background-image: url("footer-background5.jpg");
-    /* height: 80%; */
     background-repeat: no-repeat;
     background-size: 100vw 100%;
     font-size: 3rem;
@@ -414,7 +413,6 @@ li {
     }
 
     .footer {
-        /* height: 70%; */
         padding-top: 18%;
     }
 
