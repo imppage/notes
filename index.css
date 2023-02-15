@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: black;
+    font-family: 'Kanit', sans-serif;
 }
 a{
     text-decoration: none;
@@ -203,7 +204,10 @@ nav .fa-solid {
     margin: 2rem;
     width: 30%;
     border-radius: 2rem;
-    box-shadow: 0 0 2rem 0 rgb(199, 164, 170);
+    box-shadow: 0 0 2rem 0 hsl(350, 24%, 71%);
+}
+.subject:hover{
+    box-shadow: 0 0 2rem 0 hsl(0, 50%, 10%);
 }
 
 .subject-heading {
