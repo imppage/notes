@@ -1,6 +1,7 @@
 .header{
     background: green;
-    height: 8rem;
+    position: fixed;
+    width: 99vw;
 }
 .background{
     width: 100%;

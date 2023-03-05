@@ -1,5 +1,7 @@
 .header{
+    position: fixed;
     background: green;
+    width: 99vw;
     /* height: 8rem; */
 }
 
@@ -11,6 +13,7 @@
     /* height: 70rem; */
     align-items: center;
     padding-bottom: 2rem ;
+    padding-top: 8rem;
 }
 section{
     border: none;
@@ -21,10 +24,11 @@ section{
     padding: 1rem;
     font-size: 1.8rem;
     border-radius: 1rem;
+    /* margin-top: 11rem; */
 }  
 .second-div{
     display: flex;
-    margin-top: 7rem;
+    margin-top: 3rem;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
