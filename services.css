@@ -2,6 +2,8 @@
 /* -----------------------header---------------------- */
 
 .header{
+    position: fixed;
+    width: 99vw;
     background: green;
     height: 8rem;
 }
@@ -15,7 +17,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 9rem;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -69,6 +71,9 @@
 
 
 @media screen and (max-width:767px) {
+    .header{
+        width: 100vw;
+    }
 
     /* ---------------------image and service text----------------------------- */
     .service-text{

@@ -2,12 +2,15 @@
     width: 100%;
 }
 .main-inside{
-    width: 95%;
+    width: 100%;
 }
 .subject{
     width: 30%;
 }
 @media (max-width:767px) {
+    .header{
+        width: 100vw;
+    }
     .subject{
         margin: 3rem auto;
         width: 60%;

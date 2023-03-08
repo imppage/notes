@@ -24,11 +24,8 @@ html {
 .navigation {
     display: flex;
     align-items: center;
-    /* align-content: center; */
     height: 8rem;
-    /* position: sticky; */
     z-index: 2;
-    /* top: 0;  */
 }
 
 /* ---------------------------------------------------------logo */
@@ -187,7 +184,7 @@ nav .fa-solid {
 .subjects {
     display: flex;
     font-size: 1.5rem;
-    margin: 3rem;
+    margin: 2rem;
     justify-content: space-evenly;
 }
 .subject-linking{
@@ -344,19 +341,18 @@ li {
     html {
         font-size: 43%;
     }
-
     /* -------------------------------css for menu------------------------ */
     .menu {
         background-color: rgb(132, 56, 87);
         font-size: 5rem;
         position: absolute;
-        height: 100%;
-        width: 20rem;
+        height: 100vh;
         text-align: center;
         top: 0;
         transition: 1s;
         right: -20rem;
         z-index: 2;
+        width: 20rem;
     }
 
     /*-------------------------- css for menu button and close button----------------------- */

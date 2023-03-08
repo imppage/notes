@@ -5,7 +5,6 @@
 }
 .background{
     width: 100%;
-    /* height: 50vh; */
 }
 .contact{
     font-size: 4rem;
@@ -69,6 +68,9 @@
 
 @media (max-width:767px)
 {
+    .header{
+        width: 100vw;
+    }
     .form{
         flex-direction: column;
         width: 150%; 
