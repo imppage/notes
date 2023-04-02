@@ -20,6 +20,9 @@
     padding-top: 9rem;
     font-family: 'Kanit', sans-serif;
 }
+.service-text p{
+    margin: 1rem;
+}
 
 /*-------------- different section of asking others to upload their notes----------------------- */
 
